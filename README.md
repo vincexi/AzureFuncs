@@ -1,5 +1,5 @@
 # AzureFuncs
-License payment processing azure functions. 
+A license payment processing set of azure functions using various triggers and bindings to perform cascading actions 
 
 OnPaymentReceived function contains a POST endpoint receiving the Order model. The order is recorded to Azure Storage and then added to a Queue.
 
